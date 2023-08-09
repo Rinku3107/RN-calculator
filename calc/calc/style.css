@@ -1,0 +1,42 @@
+*
+{
+   
+    box-sizing: border-box;
+}
+body
+{
+    display: grid;
+    place-items: center;
+}
+h1
+{
+    text-align: center;
+}
+.container
+{
+    width: 400px;
+    padding: 20px;
+    background-color: lightblue;
+    margin: 0 20px;
+}
+label
+{
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 9px;
+}
+input
+{
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: large;
+}
+.btns
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
